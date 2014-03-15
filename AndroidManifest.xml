@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iforum"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.test.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.test.SignupActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.test.LoginActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.AndroidTabActivity"
+            android:label="@string/app_name" >
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchActivity" />
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.test.SearchActivity"
+            android:parentActivityName="info.androidhive.actionbar.AndroidTabActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity android:name="com.example.test.Home" />
+        <activity android:name="com.example.test.Profile" />
+        <activity
+            android:name="com.example.test.GamesActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.test.AndroidTabActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.ListHolder"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.test.SportsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.test.AndroidTabActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.PeopleActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.test.FoodsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.test.AndroidTabActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.MoviesActivity"
+            android:label="@string/app_name"
+            android:parentActivityName="com.example.test.AndroidTabActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.BooksActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.test.HomeActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.test.ProfileActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.test.FooterActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.test.Games1"
+            android:parentActivityName="com.example.test.GamesActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Games2"
+            android:parentActivityName="com.example.test.GamesActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Games3"
+            android:parentActivityName="com.example.test.GamesActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Games4"
+            android:parentActivityName="com.example.test.GamesActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Movies1"
+            android:parentActivityName="com.example.test.MoviesActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Movies2"
+            android:parentActivityName="com.example.test.MoviesActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Movies3"
+            android:parentActivityName="com.example.test.MoviesActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Movies4"
+            android:parentActivityName="com.example.test.MoviesActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Foods1"
+            android:parentActivityName="com.example.test.FoodsActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Foods2"
+            android:parentActivityName="com.example.test.FoodsActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Foods3"
+            android:parentActivityName="com.example.test.FoodsActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Foods4"
+            android:parentActivityName="com.example.test.FoodsActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Sports1"
+            android:parentActivityName="com.example.test.SportsActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Sports2"
+            android:parentActivityName="com.example.test.SportsActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Sports3"
+            android:parentActivityName="com.example.test.SportsActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Sports4"
+            android:parentActivityName="com.example.test.SportsActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.Edit"
+            android:label="@string/title_activity_edit" >
+        </activity>
+        <activity
+            android:name="com.example.test.TabNewActivity"
+            android:label="@string/title_activity_tab_new"
+            android:parentActivityName="com.example.test.AndroidTabActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.ThreadActivity"
+            android:label="@string/title_activity_thread" >
+        </activity>
+        <activity
+            android:name="com.example.test.AuthActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.test.RepActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.test.Header2"
+            android:label="@string/title_activity_header2" >
+        </activity>
+        <activity
+            android:name="com.example.test.Topic"
+            android:label="@string/title_activity_topic" >
+        </activity>
+        <activity
+            android:name="com.example.test.MessageActivity"
+            android:label="@string/title_activity_message" 
+            android:parentActivityName="com.example.test.AndroidTabActivity">
+        </activity>
+        <activity
+            android:name="com.example.test.MsgTabActivity"
+            android:label="@string/title_activity_msg_tab"
+            android:parentActivityName="com.example.test.AndroidTabActivity" >
+        </activity>
+        <activity
+            android:name="com.example.test.InboxActivity"
+            android:label="@string/title_activity_inbox" >
+        </activity>
+        <activity
+            android:name="com.example.test.SentActivity"
+            android:label="@string/title_activity_sent" >
+        </activity>
+        <activity
+            android:name="com.example.test.ContactActivity"
+            android:label="@string/title_activity_contact" >
+        </activity>
+        <activity
+            android:name="com.example.test.UserActivity"
+            android:label="@string/title_activity_user" 
+            android:parentActivityName="com.example.test.AndroidTabActivity">
+        </activity>
+    </application>
+
+</manifest>

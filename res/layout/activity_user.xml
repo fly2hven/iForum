@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/urelativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#808080" >
+
+        <TextView
+            android:id="@+id/uprofileTxtView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:text="User 101"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/utextView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/uprofileTxtView1"
+            android:layout_centerHorizontal="true"
+            android:text="Status: Active User"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/uimageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/urelativeLayout1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="70dp"
+        android:maxWidth="70dp"
+        android:src="@drawable/male" />
+
+    <TextView
+        android:id="@+id/uTextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/uimageView1"
+        android:layout_below="@+id/uimageView1"
+        android:text="username"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/uTextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/uTextView01"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="21dp"
+        android:text="NAME :"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/uTextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/uTextView02"
+        android:layout_centerVertical="true"
+        android:text="EMAIL :"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/utextView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/uTextView03"
+        android:layout_below="@+id/uTextView03"
+        android:layout_marginTop="38dp"
+        android:text="Number of replies:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/utextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/utextView3"
+        android:layout_below="@+id/utextView3"
+        android:text="Number of threads:"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/ubuttonmsg"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/utextView2"
+        android:layout_below="@+id/utextView2"
+        android:layout_marginTop="27dp"
+        android:gravity="center_vertical"
+        android:text="Send Message"
+        android:textColor="#000000" />
+
+</RelativeLayout>

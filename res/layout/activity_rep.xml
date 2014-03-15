@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="46dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="70dp"
+        android:maxWidth="70dp"
+        android:src="@drawable/male" />
+
+    <TextView
+        android:id="@+id/names"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="14dp"
+        android:textColor="#FFFFFF"
+        android:layout_toLeftOf="@+id/textView1"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:textColor="#FFFFFF"
+        android:layout_alignBaseline="@+id/names"
+        android:layout_alignBottom="@+id/names"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="38dp"
+        android:text="01/01/01" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+          android:textColor="#FFFFFF"
+        android:layout_alignLeft="@+id/names"
+        android:layout_below="@+id/names"
+        android:layout_marginTop="14dp"
+        android:text="Replied to the topic "
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

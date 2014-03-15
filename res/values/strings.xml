@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">i-Forum</string>
+    <string name="action_settings"></string>
+    <string name="hello_world"></string>
+    <string name="title_activity_signup">MainActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_android_tab">AndroidTabActivity</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_games">GamesActivity</string>
+    <string name="title_activity_list_holder">ListHolder</string>
+    <string name="title_activity_list">ListActivity</string>
+    <string name="title_activity_sports">SportsActivity</string>
+    <string name="title_activity_people">PeopleActivity</string>
+    <string name="title_activity_food">FoodActivity</string>
+    <string name="title_activity_movie">MovieActivity</string>
+    <string name="title_activity_books">BooksActivity</string>
+
+    <string-array name="games">
+        <item>Dota</item>
+        <item>Dota 2</item>
+        <item>Counter Strike</item>
+        <item>Flappy Bird</item>
+    </string-array>
+    <string-array name="books">
+        <item>Encyclopedia</item>
+        <item>History</item>
+        <item>Science Fiction</item>
+        <item>Comics</item>
+    </string-array>
+    <string-array name="foods">
+        <item>Sea Foods</item>
+        <item>Meat</item>
+        <item>Healthy Foods</item>
+        <item>Fast Foods</item>
+    </string-array>
+    <string-array name="foods1">
+        <item>Recipe</item>
+        <item>Price</item>
+        <item>Nutrients</item>
+        <item>Market</item>
+    </string-array>
+    <string-array name="foods2">
+        <item>Price</item>
+        <item>Recipe</item>
+        <item>Tips</item>
+        <item>Market</item>
+    </string-array>
+    <string-array name="foods3">
+        <item>Nutrients</item>
+        <item>Fresh/Not</item>
+        <item>Healthy Tips</item>
+        <item>Market</item>
+    </string-array>
+    <string-array name="foods4">
+        <item>Drive Tru</item>
+        <item>Dine-in</item>
+        <item>Take-out</item>
+        <item>Nutrients</item>
+    </string-array>
+    <string-array name="movies">
+        <item>Horror</item>
+        <item>Comedy</item>
+        <item>Action</item>
+        <item>Drama</item>
+    </string-array>
+    <string-array name="movies1">
+        <item>The Code</item>
+        <item>Conjuring</item>
+        <item>Scary Movie</item>
+        <item>Insidious 2</item>
+    </string-array>
+    <string-array name="movies2">
+        <item>The Hangover</item>
+        <item>Superbad</item>
+        <item>Role Models</item>
+        <item>This is the End</item>
+    </string-array>
+    <string-array name="movies3">
+        <item>Expendables</item>
+        <item>Die Hard</item>
+        <item>Avengers</item>
+        <item>Transformers</item>
+    </string-array>
+    <string-array name="movies4">
+        <item>Titanic</item>
+        <item>Comedy</item>
+        <item>Forest Gump</item>
+        <item>The Notebook</item>
+    </string-array>
+    <string-array name="sports">
+        <item>Basketball</item>
+        <item>Volleyball</item>
+        <item>Soccer</item>
+        <item>Tennis</item>
+    </string-array>
+    <string-array name="sports1">
+        <item>Coaching</item>
+        <item>Drills</item>
+        <item>Techniques</item>
+        <item>Rules/Regulations</item>
+    </string-array>
+    <string-array name="people">
+        <item>Athletes</item>
+        <item>Artists</item>
+        <item>Famous People</item>
+        <item>Politicians</item>
+    </string-array>
+    <string-array name="games1">
+        <item>Items</item>
+        <item>Heroes</item>
+        <item>Build</item>
+        <item>Techniques</item>
+    </string-array>
+    <string-array name="games2">
+        <item>Heroes</item>
+        <item>Builds</item>
+        <item>Trade</item>
+        <item>Tournament</item>
+    </string-array>
+    <string-array name="games3">
+        <item>Technique</item>
+        <item>CSOnline</item>
+        <item>Commands</item>
+        <item>Tips</item>
+    </string-array>
+    <string-array name="games4">
+        <item>High Scores</item>
+        <item>Technique</item>
+        <item>Cheats</item>
+        <item>Buy/Sell</item>
+    </string-array>
+    <string-array name="names">
+        <item>Name 1</item>
+        <item>Name 2</item>
+        <item>Name 3</item>
+        <item>Name 4</item>
+    </string-array>
+    <string-array name="messages">
+        <item>Hello ..........</item>
+        <item>Hi .............</item>
+        <item>Hey ............</item>
+        <item>Hooo ...........</item>
+    </string-array>
+    <string-array name="topics">
+        <item>Topic 1</item>
+        <item>Topic 2</item>
+        <item>Topic 3</item>
+        <item>Topic 4</item>
+        <item>Topic 5</item>
+        <item>Topic 6</item>
+    </string-array>
+
+    <string name="title_activity_footer">FooterActivity</string>
+    <string name="title_activity_games1">Games1</string>
+    <string name="title_activity_games2">Games2</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_tab_new">TabNewActivity</string>
+    <string name="title_activity_thread">ThreadActivity</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_rep">RepActivity</string>
+    <string name="title_activity_header2">Header2</string>
+    <string name="title_activity_topic">Topic</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="title_activity_msg_tab">MsgTabActivity</string>
+    <string name="title_activity_inbox">InboxActivity</string>
+    <string name="title_activity_sent">SentActivity</string>
+    <string name="title_activity_contact">ContactActivity</string>
+    <string name="title_activity_user">UserActivity</string>
+
+</resources>
